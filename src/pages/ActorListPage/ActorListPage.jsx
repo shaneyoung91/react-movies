@@ -3,7 +3,7 @@
 export default function ActorListPage() {
     return (
         <>
-            <div>ActorListPage</div>
+            <div>Actor List Page</div>
         </>
     )
 }

@@ -3,7 +3,7 @@
 export default function MovieDetailPage() {
     return (
         <>
-            <div>MovieDetailPage</div>
+            <div>Movie Detail Page</div>
         </>
     )
 }
