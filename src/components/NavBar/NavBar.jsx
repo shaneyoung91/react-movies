@@ -11,7 +11,7 @@ export default function NavBar({user}) {
                 &nbsp; | &nbsp;
                 <Link to="/actors">Actor List</Link>
             </nav>
-            <h3>Welcome {user}</h3>
+            <h3>Welcome {user}!</h3>
         </>
     )
 }
