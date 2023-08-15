@@ -19,7 +19,7 @@ export default function App() {
 
   return (
     <main>
-      <h1>REACT MOVIES</h1>
+      <h1>React Movies Lab</h1>
       { user ?
         <>
           <NavBar user={user}/>
