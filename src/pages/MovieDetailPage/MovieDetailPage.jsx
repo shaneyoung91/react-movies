@@ -7,10 +7,14 @@ export default function MovieDetailPage({ movies }) {
     
     return (
         <>
+            <br></br>
             <div>
                 <h2>{movie.title}</h2>
-                <p>Release Date: {movie.releaseDate}</p>
-                <p>Cast: {movie.cast.join(', ')}</p>
+                <p><b>Release Date:</b> {movie.releaseDate}</p>
+                <p><b>Cast:</b> {movie.cast.join(', ')}</p>
+            </div>
+            <div>
+                <img src={movie.posterPath}></img>
             </div>
         </>
     )

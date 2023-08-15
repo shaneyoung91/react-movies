@@ -1,8 +1,8 @@
 .MovieCard {
     border: 1px solid #ccc;
     padding: 10px;
-    width: calc(33.33% - 20px);
-    height: 50vmin;
+    width: 35vmin;
+    height: 55vmin;
     box-sizing: border-box;
     margin-bottom: 20px;
     background-size: cover;
