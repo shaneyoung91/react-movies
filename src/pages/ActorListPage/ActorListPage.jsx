@@ -1,9 +1,13 @@
+import ActorCard from "../../components/ActorCard/ActorCard";
 
+export default function ActorListPage({ movies }) {
+    const cast = movies.map(movie => movie.cast);
 
-export default function ActorListPage() {
     return (
         <>
-            <div>Actor List Page</div>
+            <div>
+                <ActorCard cast={cast} />
+            </div>
         </>
     )
 }

@@ -9,7 +9,6 @@ import LoginPage from '../LoginPage/LoginPage'
 import NavBar from '../../components/NavBar/NavBar'
 import './App.css'
 
-
 export default function App() {
   const [user, setUser] = useState(null)
 
@@ -26,7 +25,7 @@ export default function App() {
           <Routes>
               <Route path="/" element={<MoviesListPage movies={movies} />} />
               <Route path="/movies/:movieName" element={<MovieDetailPage movies={movies} />} />
-              <Route path="/actors" element={<ActorListPage />} />
+              <Route path="/actors" element={<ActorListPage movies={movies}/>} />
           </Routes>
         </>
         :
